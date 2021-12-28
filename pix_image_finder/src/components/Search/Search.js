@@ -3,6 +3,8 @@ import TextField from "material-ui/TextField";
 import SelectField from "material-ui/SelectField";
 import MenuItem from "material-ui/MenuItem";
 import axios from "axios";
+import ImageResult from "../ImageResult/imageResult";
+
 export class Search extends Component {
   state = {
     searchText: "",
@@ -35,6 +37,8 @@ export class Search extends Component {
           <MenuItem value={30} primaryText="30" />
           <MenuItem value={50} primaryText="50" />
         </SelectField>
+        <br />
+        <ImageResult data={this.state.images} />
       </div>
     );
   }
