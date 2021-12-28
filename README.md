@@ -1,2 +1,4 @@
 # pixabay_search_image
-Search image web app with react using pixabay API
+Search image web app
+* ReactJs 
+* PixaBay API
