@@ -1,4 +1,4 @@
-# PIXABAY IMAGE SEARCH APP
+# PIXABAY IMAGE SEARCH WEB APP
 Image Finder Web APP
 * React Js 
 * PixaBay API
